@@ -18,9 +18,16 @@ cd snake_game
 ## Running the Game
 Navigate to the directory containing the game files and run the game using Python:
 
+For Mac:
+
 ```
 python3 main.py
 ```
+For Windows:
+```
+py main.py
+```
+
 Ensure that main.py is the script that initiates the game, which utilizes the Screen, Snake, Food, and Scoreboard modules.
 
 ## Game Controls
