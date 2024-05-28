@@ -28,6 +28,13 @@ class Snake:
         new_object.goto(position)
         self.objects.append(new_object)
 
+    def reset(self):
+        for obj in self.objects:
+            obj.goto(1000, 1000)
+        self.objects.clear()
+        self.create_snake()
+        self.head = self.objects[0]
+
     def extend(self):
         # add a new item to the snake
         self.add_item(self.objects[-1].position())
